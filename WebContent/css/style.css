@@ -1,0 +1,131 @@
+.footer ul li{
+  list-style: none;
+  display: flex;
+  padding-left: 600px;
+}
+nav{
+  width: 100%;
+  background-color: #424558;
+}
+nav ul{
+  margin: 0px;
+  padding: 10px;
+}
+nav li{
+  list-style-type: none;
+  float: left;
+  margin:40px;
+}
+ a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #FFF;
+  text-transform:uppercase;
+  font-size: 15px;
+}
+.table{
+  display: table;
+  margin: 0 auto;
+}
+h2{
+  padding-left:700px;
+  font-size: 30px;
+}
+div.savoir .btn{width: 320px;
+        margin-bottom: 50px;
+        background: white;
+        color: gray;
+        transition: 500ms}
+
+div.savoir .btn:hover{width: 320px;
+        margin-bottom: 50px;
+        background: gray;
+        color: white}
+
+section.contact{
+    width: 100%;
+    padding: 0;
+    background-color: #151516;
+    background-image: url(../images/Sans%20titre-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+    background-position: 50% -48px}
+
+article.bloc{
+        width: 320px;
+        height: auto;
+        margin-left: 10%;
+        padding-top: 20px}
+
+h2.formulaire{color: crimson}
+
+form{width: 320px;
+color: dimgray}
+
+label{color: white;
+width: 320px;}
+
+input{background: black;
+      color: white;
+      border: 1px solid dimgray;
+transition:1s;
+width: 100%}
+
+input:hover{background: crimson}
+
+input.envoie{width: 170px; padding: 10px;
+text-align: center;
+transition:2s}
+
+input.envoie:hover{border-radius: 10px;
+        color: gray;
+        background: white;
+        text-align: center}
+
+hr{border: 1px solid white;
+width: 100%}
+
+.fab {color: white}
+.fab:hover {color: crimson}
+
+body{
+  font-family: 'Century Gothic',Calibri,serif;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer{height: 140px;
+background: black;
+width: 100%;
+padding: 30px }
+
+.size{font-size: 20px;
+padding-left: 24px}
+
+footer>div{width: 380px;
+float: right}
+
+footer div p{color: white;
+font-size: 12px}
+
+
+@media screen and (max-width: 395px){
+    article.bloc{
+        width: 320px;
+        height: auto;
+        margin-left: 25px;
+        padding-top: 15px}
+
+        input{background: black;
+      color: white;
+      border: 1px solid dimgray;
+width: 80%}
+
+        hr{border: 1px solid white;
+width: 80%}
+
+
+}
